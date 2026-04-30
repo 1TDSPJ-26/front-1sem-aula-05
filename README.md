@@ -42,3 +42,9 @@ Abaixo está o cronograma de competências da nossa jornada:
 ## Para a próxima aula:
 
 - Realizar a estilização das seções remanescentes do main com grid e flexBOX.
+
+SEÇÃO EXERCICIOS:
+
+Exercicio1: Refatorar as páginas de acordo com a index.html
+Exercico2: Aplicar @media-queries em 3 resoluções: De 320px até 768px,769px até 1024px,e acima de 1024px.
+Exercicio3: Refatorar o CSS de todo o projeto para que as melhores práticas como Flexbox,GRID,
