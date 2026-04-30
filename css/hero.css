@@ -20,8 +20,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); */
-  
-
+}
 .hero__title {
   text-align: center;
   margin: 2rem;
@@ -64,10 +63,10 @@
 }
 
 
-@media (max-width: 1400px) {
+@media (min-width: 1980px) {
     .hero__text {
         line-height: 3rem; /* Diminui o entrelinhamento que estava muito alto (6rem) para telas menores */
-        font-size: 1.82rem;
+        font-size: 10rem;
     }
  
     .hero__btn{
