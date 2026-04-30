@@ -37,3 +37,22 @@ Abaixo está o cronograma de competências da nossa jornada:
 ## 👨‍🏫 Instrutor
 **Prof. Alexandre C. de Jesus**
 *Front-End-Design-Engineering*
+
+
+## Para a próxima aula:
+
+- Realizar a estilização das seções remanescentes do main com grid e flexBOX.
+
+SEÇÃO EXERCICIOS:
+
+Exercicio1: Refatorar as páginas de acordo com a index.html
+Exercicio2: Aplicar @media-queries em 3 resoluçoes: De 320px até 768px, 769px até 1024px, e acima de 1024px.
+Exercicio3: Refatorar o CSS de todo o projeto para que seja aplicada as melhores práticas como FLexBOX, GRID, ETC.
+
+## 📚 Referências:
+- https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element
+- https://developer.mozilla.org/pt-BR/docs/Web/CSS/Grid
+- https://developer.mozilla.org/pt-BR/docs/Web/CSS/Flex_box
+- https://developer.mozilla.org/pt-BR/docs/Web/CSS/Media_Queries
+- https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference
+- https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math
