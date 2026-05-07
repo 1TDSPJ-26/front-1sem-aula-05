@@ -23,6 +23,7 @@ console.log(sobrenome); //Silva
 */
 
 //tipos de dados em JavaScript
+/*
 const nome = "Matheus";
 console.log(typeof nome); //string
 const idade = 25;
@@ -58,12 +59,15 @@ const pessoa = {
 
 console.log(pessoa);
 console.log(pessoa.nome);
-
+*/
 //lição de casa:
 //criar um objeto que seja semelhandte aos dados do formulário de login
 //imprimir o objeto no console
 
-//Exemplo de função em JavaScript
-function saudacao() {
-    alert("Olá, seja bem-vindo!");
-}
+let email = "joao@example.com";
+let senha = 123456;
+
+console.log("Email:", email);
+console.log("Tipo de email:", typeof email);
+console.log("Senha:", senha);
+console.log("Tipo de senha:", typeof senha);
