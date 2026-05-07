@@ -27,7 +27,21 @@
         <div class="hero__container">
           <h1 class="hero__title">CONTROLE DE ACESSO</h1>
  
-         
+          <form action="/action_page.php" method="get">
+            <fieldset>
+                <div>
+                    <label for="idEmail" class="hero__label">Email:</label>
+                    <input type="email" id="idEmail" name="idEmail" placeholder="Digite seu email" minlength="7" maxlength="50" required>
+                </div>
+                <div>
+                    <label for="idSenha" class="hero__label">Senha:</label>
+                    <input type="password" id="idSenha" name="idSenha" placeholder="Digite sua senha" minlength="6" maxlength="20" required>
+                </div>
+                <div>
+                    <input type="submit" id="idSubmit" name="idSubmit" value="Entrar">
+                </div>
+            </fieldset>
+          </form>
  
           <span>Ainda não tem conta?</span>
           <a aria-label="Para criar sua conta." class="hero__btn" href="./cadastro.html">Clique Aqui</a>
