@@ -80,10 +80,49 @@
 // Crie um objeto que seja semelhante aos dados do formulário de login
 // Imprmir os dados do objeto no console.
 
+//Declarando um objeto espelhado ao formulario de login 
+  
+// //Imprimindo os dados do objeto:
+// console.log(perfil);
 
-const perfil = {
-    email: "juan.marques@gmail.com",
-    senha: "12345678"
-}
+// // //Imprimindo um único dado do objeto: 
+// console.log(usuario.nome);
 
-console.log(perfil)
+// //Alterar um unico dado do objeto:
+// usuario.nome = "Antonio das alfaces";
+// //Imprimindo um unico dado do objeto:
+// console.log(usuario.nome);
+
+// let nome = "Joaquim dos tomates"
+// //Alterar um unico dado do objeto:
+// usuario.nome = nome
+// //Imprimindo um único dado do objeto:
+// console.log(usuario.nome)
+
+// const subTitH2 = document.getElementById("teste");
+// //Imprimindo o elemento capturado:
+// console.log(subTitH2);
+
+// //Vamos escrever no H2
+// //subTitH2.textContent = "Novo valor"
+// // subTitH2.innerHTML = "<p>Titulo</p>"
+
+// const perfil = {
+//     email: "email@email.com",
+//     senha: "12345678",
+//     nome: "Jose das Couves",
+//     idade: 33,
+//     avatar:"./img/avatar/img-avatar-01.jpg"
+// }
+
+// // Capturando elemento do avatar
+// const imgAvatar = document.getElementById("Avatar-user")
+
+// //Preenchendo o avatar com os dados do objeto usúario:
+// imgAvatar.src = usuario.avatar;
+// imgAvatar.width = "100%";
+// imgAvatar.alt = usuario.nome; 
+
+//Para casa 
+
+//Recuperar os dados do form e armazenar em um objeto e imprimir assim que o botão Entrar for clicado
