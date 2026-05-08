@@ -45,29 +45,29 @@
 // console.log(typeof array2);
 // const array3 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-//Tipagem no JS é dinâmica
-let variavel;
-console.log("Valor: " + variavel);
-console.log("Tipo: " + typeof variavel);
+// //Tipagem no JS é dinâmica
+// let variavel;
+// console.log("Valor: " + variavel);
+// console.log("Tipo: " + typeof variavel);
 
-variavel = "Alê";
-console.log("Valor: " + variavel);
-console.log("Tipo: " + typeof variavel);
+// variavel = "Alê";
+// console.log("Valor: " + variavel);
+// console.log("Tipo: " + typeof variavel);
 
-variavel = true;
-console.log("Valor: " + variavel);
-console.log("Tipo: " + typeof variavel);
+// variavel = true;
+// console.log("Valor: " + variavel);
+// console.log("Tipo: " + typeof variavel);
 
 
-//Como declaramos um Objeto em javaScript
-const objeto1 = {
-  nome: "Alê",
-  sobrenome: "C. de Jesus",
-  idade: 20,
-  estaAprovado: true
-  };
-console.log(objeto1);
-console.log(typeof objeto1);
+// //Como declaramos um Objeto em javaScript
+// const objeto1 = {
+//   nome: "Alê",
+//   sobrenome: "C. de Jesus",
+//   idade: 20,
+//   estaAprovado: true
+//   };
+// console.log(objeto1);
+// console.log(typeof objeto1);
  
 
 // Lição de Casa:
@@ -75,12 +75,59 @@ console.log(typeof objeto1);
 // Imprmir os dados do objeto no console.
 
 
-// Declarando um objeto espelhado ao formulário de login
+//Declarando um objeto espelhado ao FORMULÁRIO DE LOGIN
 
-// Obejto Usuário:
+//Objeto Usuário:
 
-const usuario = {
-    email: "email@email.com",
-    senha: "1234567890"
-    
+// const usuario = { 
+//   email:"email@email.com",
+//   senha:"12345",
+//   nome:"José das Couves",
+//   idade:33,
+//   avatar:"./img/avatar/img-avatar-01.jpg"
+// }
+
+// //Imprimindo os dados do objeto:
+// console.log(usuario);
+// console.table(usuario);
+
+// //Imprimindo um único dado do objeto:
+// console.log(usuario.nome);
+
+// //Alterar um único dado do objeto:
+// usuario.nome = "Antonio das Alfaces";
+// //Imprimindo um único dado do objeto:
+// console.log(usuario.nome);
+
+// let nome = "Joaquim dos Tomates";
+// //Alterar um único dado do objeto:
+// usuario.nome = nome;
+// //Imprimindo um único dado do objeto:
+// console.log(usuario.nome);
+
+// const subTitH2 = document.getElementById("teste");
+// //Imprimeindo o elemento capturado:
+// console.log(subTitH2);
+
+// //Vamos escrever no h2
+// // subTitH2.textContent = "<p>NOVO TEXTO</p>";
+// subTitH2.innerHTML = "<p>novo texto</p>";
+
+
+const usuario = { 
+  email:"email@email.com",
+  senha:"12345",
+  nome:"José das Couves",
+  idade:33,
+  avatar:"./img/avatar/img-avatar-01.jpg"
 }
+
+//Capturando o elemento de avatar:
+const imgAvatar = document.getElementById("avatar-user");
+
+//Preenchendo o avatar com os dados do objeto usuário:
+imgAvatar.src = usuario.avatar;
+imgAvatar.width = 100;
+imgAvatar.alt = usuario.nome;
+
+
