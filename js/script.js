@@ -20,7 +20,7 @@
 // // console.log(idade);
 
 
-//Tipos de dados:
+// //Tipos de dados:
 // const nome = "Alê";
 // console.log(typeof nome);
 // const idade = 20;
@@ -29,8 +29,8 @@
 // console.log(typeof numeroDecimal);
 // const estaAprovado = true;
 // console.log(typeof estaAprovado);
-// const sobrenome = undefined;
-// console.log(typeof sobrenome);
+// const sobrenomes = undefined;
+// console.log(typeof sobrenomes);
 // let naoDeclarada;
 // console.log(typeof naoDeclarada);
 // const corSelecionada = null;
@@ -74,9 +74,33 @@
 // Crie um objeto que seja semelhante aos dados do formulário de login
 // Imprmir os dados do objeto no console.
 
-//Lição de casa:
-const cliente = {
-    Email: "email",
-    Senha: "12345"
+//Objeto usuário:
+const usuario = {
+    email: "email",
+    senha: "12345",
+    nome: "José",
+    idade: 30,
+    avatar: "./img/avatar/img-avatar-01.jpg"
 }
-console.log(cliente)
+
+// //imprimindo os dados do objeto:
+// console.table(usuario)
+
+// //Alterar um único dado do objeto:
+// usuario.nome = "Antonio cenouro"
+// //imprimindo um único dado do objeto:
+// console.log(usuario.nome)
+
+// const subTitH2 = document.getElementById("teste");
+// subTitH2.innerHTML = "<p>Titulo</p>";
+// console.log(subTitH2)
+
+// //Capturando o elemento de avatar
+// const imgAvatar = document.getElementById("avatar-user");
+
+// //Preenchend o avatar com os dados do objeto usuário
+// imgAvatar.src = usuario.avatar;
+// imgAvatar.width = 100;
+// imgAvatar.alt = usuario.nome;
+
+//Recuperar os dados dos campos do form e armazenar rm um objeto e imprimir eles assim que o botão entrar for clicado

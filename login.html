@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
@@ -6,7 +6,7 @@
 
     <link rel="stylesheet" href="./css/main.css" />
 
-    <script src="./js/script.js"></script>
+    <script src="./js/script.js" defer></script>
 
     <title>ESPORTES TOTAIS - LOGIN</title>
   </head>
@@ -29,6 +29,11 @@
         <div class="hero__container">
           <h1 class="hero__title">CONTROLE DE ACESSO</h1>
 
+          <div>
+            <h2 id="teste">TESTE</h2>
+            <img id="avatar-user"> 
+          </div>
+
           <form action="" method="">
             <fieldset>
               <div>
@@ -43,7 +48,7 @@
                   required
                 />
               </div>
-              <div>
+                            <div>
                 <label for="idSenha">Senha</label>
                 <input
                   type="password"
@@ -54,8 +59,8 @@
                   maxlength="30"
                   required
                 />
-              </div>
-              <div>
+               </div>
+               <div>
                 <button type="submit" id="btnEntrar">Entrar</button>
               </div>
             </fieldset>
