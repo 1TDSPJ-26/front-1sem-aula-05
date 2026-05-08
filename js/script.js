@@ -63,11 +63,54 @@ console.log(pessoa.nome);
 //lição de casa:
 //criar um objeto que seja semelhandte aos dados do formulário de login
 //imprimir o objeto no console
+/*
+//Objeto Usuário:
 
-let email = "joao@example.com";
-let senha = 123456;
+const usuario = {
+    email: "exemplo@exemplo.com",
+    senha: "123456",
+    nome: "Exemplo de Exemplo",
+    idade: 33,
+    avatar: "./img/avatar/avatar-placeholder.png"
+}
 
-console.log("Email:", email);
-console.log("Tipo de email:", typeof email);
-console.log("Senha:", senha);
-console.log("Tipo de senha:", typeof senha);
+/*
+//log de todos os atributos do objeto
+
+console.log(usuario)
+console.table(usuario)
+
+//log de um atributo do objeto
+
+console.log(usuario.nome)
+
+//alterar a informação de um atributo direto no atributo
+
+usuario.nome = "Exemplar dos Exemplissimos"
+console.log(usuario.nome)
+
+//Alterar a informação de um atributo com um objeto
+
+let nome = "José"
+usuario.nome = nome
+console.log(usuario.nome)
+*/
+
+//let subtituloH2 = document.getElementById("teste");
+//imprimindo o elemento capturado
+//console.log(subtituloH2)
+//Bora escrever no CORNO desse <h2>
+//subtituloH2.textContent =  "Novo texto"
+//subtituloH2.innerHTML = "<p>Sou cego</p>".toUpperCase()
+/*
+//Capturando o elemento de avatar!!
+let imgAvatar = document.getElementById("avatar-user")
+
+//Processando o avatar com os dados do objeto usuário
+imgAvatar.src = usuario.avatar
+imgAvatar.alt = usuario.nome
+imgAvatar.width = 40
+*/
+
+//Para casa:
+//Recuperar os dados dos campos do FORM e armazenar em um objeto e imprimir eles assim que o botão Entrar for clicado!!
