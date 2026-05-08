@@ -74,3 +74,9 @@ console.log(typeof objeto1);
 // Crie um objeto que seja semelhante aos dados do formulário de login
 // Imprmir os dados do objeto no console.
 
+const dadosLogin = {
+  email: "alexandre@email.com",
+  senha: "senha123"
+};
+ 
+console.log(dadosLogin);
